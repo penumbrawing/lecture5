@@ -1,0 +1,62 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading F:/1CS/FLUTTER/lecture5/test/lifecycle_test.dart
+00:00 +0: F:/1CS/FLUTTER/lecture5/test/lifecycle_test.dart: State survives parent config changes, then disposes on removal
+[CounterPage] initState | count=0 step=1
+[CounterPage] didChangeDependencies | count=0 step=1
+[CounterPage] build | count=0 step=1
+[CounterPage] increment | count=1 step=1
+[CounterPage] build | count=1 step=1
+[CounterPage] didUpdateWidget: 第一次配置 -> 父组件传入新标题 | count=1 step=1
+[CounterPage] build | count=1 step=1
+[CounterPage] reassemble | count=1 step=1
+[CounterPage] build | count=1 step=1
+[CounterPage] deactivate | count=1 step=1
+[CounterPage] dispose | count=1 step=1
+00:00 +1: loading F:/1CS/FLUTTER/lecture5/test/widget_test.dart
+00:01 +1: F:/1CS/FLUTTER/lecture5/test/widget_test.dart: counter starts at zero and supports steps 1, 2, 5
+[CounterPage] initState | count=0 step=1
+[CounterPage] didChangeDependencies | count=0 step=1
+[CounterPage] build | count=0 step=1
+[CounterPage] increment | count=1 step=1
+[CounterPage] build | count=1 step=1
+[CounterPage] selectStep | count=1 step=2
+[CounterPage] build | count=1 step=2
+[CounterPage] increment | count=3 step=2
+[CounterPage] build | count=3 step=2
+[CounterPage] selectStep | count=3 step=5
+[CounterPage] build | count=3 step=5
+[CounterPage] increment | count=8 step=5
+[CounterPage] build | count=8 step=5
+[CounterPage] selectStep | count=8 step=1
+[CounterPage] build | count=8 step=1
+[CounterPage] increment | count=9 step=1
+[CounterPage] build | count=9 step=1
+[CounterPage] deactivate | count=9 step=1
+[CounterPage] dispose | count=9 step=1
+00:02 +2: F:/1CS/FLUTTER/lecture5/test/widget_test.dart: local picture decodes and theme uses the declared font
+[CounterPage] initState | count=0 step=1
+[CounterPage] didChangeDependencies | count=0 step=1
+[CounterPage] build | count=0 step=1
+[CounterPage] deactivate | count=0 step=1
+[CounterPage] dispose | count=0 step=1
+00:02 +3: F:/1CS/FLUTTER/lecture5/test/widget_test.dart: narrow phone width has no layout overflow
+[CounterPage] initState | count=0 step=1
+[CounterPage] didChangeDependencies | count=0 step=1
+[CounterPage] build | count=0 step=1
+[CounterPage] deactivate | count=0 step=1
+[CounterPage] dispose | count=0 step=1
+00:02 +4: F:/1CS/FLUTTER/lecture5/test/widget_test.dart: reset clears count while keeping selected step
+[CounterPage] initState | count=0 step=1
+[CounterPage] didChangeDependencies | count=0 step=1
+[CounterPage] build | count=0 step=1
+[CounterPage] selectStep | count=0 step=5
+[CounterPage] build | count=0 step=5
+[CounterPage] increment | count=5 step=5
+[CounterPage] build | count=5 step=5
+[CounterPage] reset | count=0 step=5
+[CounterPage] build | count=0 step=5
+[CounterPage] increment | count=5 step=5
+[CounterPage] build | count=5 step=5
+[CounterPage] deactivate | count=5 step=5
+[CounterPage] dispose | count=5 step=5
+00:02 +5: All tests passed!
